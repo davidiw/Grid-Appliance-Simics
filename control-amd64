@@ -1,0 +1,8 @@
+Package: simics-amd64
+Priority: optional
+Section: net
+Installed-Size: 400000
+Maintainer: David Wolinsky <davidiw@ufl.edu>
+Architecture: amd64
+Depends: simics-x86
+Description: Simics 

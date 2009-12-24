@@ -1,0 +1,7 @@
+Package: simics-x86
+Priority: optional
+Section: net
+Installed-Size: 400000
+Maintainer: David Wolinsky <davidiw@ufl.edu>
+Architecture: all
+Description: Simics
