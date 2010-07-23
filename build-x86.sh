@@ -14,6 +14,7 @@ cp -axf $path/* $package_dir/.
 
 # Patched to not require accepting the license
 cp -f simics_common.py $package_dir/x86-linux/lib/python/.
+mv $package_dir/x86-linux/sys/lib/libgcc_s.so.1 $package_dir/x86-linux/sys/lib/bk.libgcc_s.so.1
 
 debian_dir=$base_dir/DEBIAN
 mkdir -p $debian_dir
